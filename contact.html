@@ -10,8 +10,6 @@
 
     <!-- External CSS -->
     <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Work+Sans:300,400,700" rel="stylesheet">
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.min.css">
@@ -25,16 +23,15 @@
 </head>
 
 <body data-spy="scroll" data-target="#navbar" class="static-layout">
-    <nav id="header-navbar" class="navbar navbar-expand-lg py-4 ">
+    <nav id="header-navbar" class="navbar navbar-expand-lg py-4">
         <div class="container">
             <div class="anim">
                 <a href="/">
                     <img class="rounded-circle mr-4 border border-danger p-1" width="50" height="50" src="img/logo.png"
                         alt=""></a>
             </div>
-            <a class="navbar-brand d-flex align-items-center text-white" href="/">
-                <h3 class="font-weight-bolder mb-0">ROXY.com</h3>
-            </a>
+            <a class="navbar-brand d-flex align-items-center text-white font-weight-bolder mb-0 h3"
+                href="/">ROXY.com</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav-header"
                 aria-controls="navbar-nav-header" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="lnr lnr-menu"></span>
@@ -48,7 +45,7 @@
                         <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="thingstodo.html">Things to do</a>
+                        <a class="nav-link" href="thingstodo.html">Thigs to do</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="accomodation.html">Accomodations</a>
@@ -61,7 +58,6 @@
         </div>
     </nav>
 
-    </div>
     <div class="jumbotron d-flex align-items-center">
         <div class="container">
             <h3 class="font-weight-normal text-center">Contact us !</h3>
@@ -78,22 +74,22 @@
                     <span id="error_name" class="text-danger text-success error_fields"></span>
                 </div>
                 <div class="form-group">
-                    <label for="Email">Email address</label>
+                    <label for="email">Email address</label>
                     <input type="email" class="form-control fields" onkeyup="ValidateEmail();" id="email" name="email"
                         required placeholder="Enter your email">
                     <span id="error_email" class="text-danger text-success error_fields"></span>
                 </div>
 
                 <div class="form-signin form-group">
-                    <label for="phone">Phone No</label>
+                    <label for="mobile">Phone No</label>
                     <input type="number" class="form-control fields" id="mobile" name="mobile"
                         onkeyup="ValidateMobile();" required placeholder="Enter your mobile">
                     <span id="error_mobile" class="text-danger text-success error_fields"></span>
                 </div>
 
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Message</label>
-                    <textarea type="text" onkeyup="ValidatePassword();" class="form-control fields" cols="10" rows="10"
+                    <label for="password">Message</label>
+                    <textarea onkeyup="ValidatePassword();" class="form-control fields" cols="10" rows="10"
                         name="password" id="password" placeholder="Enter your Message"></textarea>
                     <span id="error_password" class="text-danger text-success error_fields"></span>
                 </div>
@@ -186,7 +182,7 @@
     </footer>
     <!-- External JS -->
     <script src="js/script.js"></script>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
     <script src="vendor/bootstrap/popper.min.js"></script>
     <script src="vendor/bootstrap/bootstrap.min.js"></script>
     <!-- Main JS -->

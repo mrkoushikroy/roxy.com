@@ -490,17 +490,20 @@ section {
 .form-control::placeholder {
   opacity: .5; }
 
-/*=====  End of FORM CONTROL  ======*/
-/*==============================
-=            CLIENT            =
-==============================*/
-.client-slider .owl-nav {
-  display: none; }
 
-.client-slider .client-item {
-  padding: 0 40px; }
+iframe{
+  width: 100%;
+  height: 300px;
+}
+.accomiframe iframe{
+  width: 100%;
+  height: 650px;
+}
+.accom img{
+  width: 100%;
+   height: 200px;
+}
 
-/*=====  End of CLIENT  ======*/
 /*==================================
 =            RESPONSIVE            =
 ==================================*/
